@@ -1,0 +1,15 @@
+ls | sort
+mkdir test_dir
+cd test_dir
+touch file1.txt
+touch file2.txt
+ls | sort
+mv file1.txt renamed_file1.txt
+ls | sort
+cp renamed_file1.txt copy_of_file1.txt
+ls | sort
+cd ..
+ls | sort
+rm -r test_dir
+ls | sort
+whoami | tr '[:lower:]' '[:upper:]'
